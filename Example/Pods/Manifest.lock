@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GravityClientLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GravityClientLib (from `../`)
+
+EXTERNAL SOURCES:
+  GravityClientLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GravityClientLib: 9bc7aace105047b553af232381ac137b79d365a1
+
+PODFILE CHECKSUM: fdf8390aca14f5d2c5b20feb87efae37dc16d54e
+
+COCOAPODS: 1.2.1
