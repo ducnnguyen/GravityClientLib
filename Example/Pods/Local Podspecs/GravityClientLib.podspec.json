@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "GravityClientLib/Classes/**/*",
+  "source_files": "GravityClientLib/Classes/*/*",
   "frameworks": [
     "UIKit",
     "CoreLocation"

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GravityClientLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GravityClientLib.'
+  s.summary          = 'Make Cocoapods for GravityClient'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Make Cocoapods for GravityClient
+Fetch from https://github.com/gravityrd/ios-library
                        DESC
 
   s.homepage         = 'https://github.com/ducnnguyen/GravityClientLib'
@@ -30,7 +31,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GravityClientLib/Classes/*/*'
+  s.source_files = 'Pod/Classes/*/*'
   
   # s.resource_bundles = {
   #   'GravityClientLib' => ['GravityClientLib/Assets/*.png']
