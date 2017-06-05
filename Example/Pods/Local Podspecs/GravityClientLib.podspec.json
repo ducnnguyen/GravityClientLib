@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of GravityClientLib.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/duc.nguyen@tiki.vn/GravityClientLib",
+  "homepage": "https://github.com/ducnnguyen/GravityClientLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,15 @@
     "duc.nguyen@tiki.vn": "duc.nguyen@tiki.vn"
   },
   "source": {
-    "git": "https://github.com/duc.nguyen@tiki.vn/GravityClientLib.git",
+    "git": "https://github.com/ducnnguyen/GravityClientLib.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "GravityClientLib/Classes/**/*"
+  "source_files": "GravityClientLib/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "CoreLocation"
+  ]
 }

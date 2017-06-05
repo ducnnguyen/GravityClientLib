@@ -9,35 +9,54 @@
 /* Begin PBXBuildFile section */
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		06A14CB8545892AC354C6E5B08302218 /* Pods-GravityClientLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 366FE395B4B717D2A29F0A5CDE9D08A1 /* Pods-GravityClientLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07A414EF6F9DF66B778EF352205BF341 /* GravityUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A789AB7139F11860FB813569608E0BAC /* GravityUser.m */; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		0A307BCD1E37801AAD1D16DE3C8B0A92 /* GravityClientLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FDC7B5B30B4474BFC909B27383534D /* GravityClientLib-dummy.m */; };
+		18962FDE595901C240FA16E7FCE973D4 /* GravityRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = DDAA159FF20CFFA27735019FF1A4F7B6 /* GravityRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		1DBB4581E6617702CA16D46F3EF79C3D /* GravityNameValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 14AF401A59E9DEDD2A9787466B15BB85 /* GravityNameValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27E38C3ACE6EE90F947672681BE813B7 /* GravityRecommendationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 77B56850DF0EA21CDC5618E76EACFCA9 /* GravityRecommendationContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B26A8EFD4CC911F3A2341C37E12C53F /* GravityClientLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8E833E6EA1337A7D7F8885DDFF7589 /* GravityClientLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31BF55D995BAFFAE144B1028DBBDE5BC /* GravityItemRecommendation.m in Sources */ = {isa = PBXBuildFile; fileRef = 803B511DF98B2EBE6EF50AEC56490127 /* GravityItemRecommendation.m */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		6AA42F5F0F5570FA6D733D5AB01B5E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		6AA42F5F0F5570FA6D733D5AB01B5E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5B192F3A0DF24569EEFBEBCE004CB5 /* Foundation.framework */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		7620D9C18D5EBBDCAB2C0D16F208E80B /* Pods-GravityClientLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D19988FBB10152AEF4B293CE8BD33 /* Pods-GravityClientLib_Tests-dummy.m */; };
-		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
-		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
-		89CD942CFE28FF7219C083E47E09FD0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		76C84E1021A4D3554871FABF01D56BE4 /* GravityClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F02724E80CEB48150349E814EB8D5A1F /* GravityClient.m */; };
+		775F1ECFD8C523C71D2A1384FB1EF33B /* GravityClientLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FDC7B5B30B4474BFC909B27383534D /* GravityClientLib-dummy.m */; };
+		7C81375CC6417B93D1AC2BE201676019 /* GravityItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 521596F8B9EB10E0F9D1F9784646B9B1 /* GravityItem.m */; };
+		7E2E30E5567C6CF3E4DC3371DD762530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5B192F3A0DF24569EEFBEBCE004CB5 /* Foundation.framework */; };
+		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BF16841096A5EF8C41E624A450F47B /* XCTest.framework */; };
+		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC004034BE5936650A29190C544DC3B5 /* UIKit.framework */; };
+		862D6CF3352C09846A04558B6DC939C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC004034BE5936650A29190C544DC3B5 /* UIKit.framework */; };
+		89CD942CFE28FF7219C083E47E09FD0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5B192F3A0DF24569EEFBEBCE004CB5 /* Foundation.framework */; };
+		8F592E619D036B060780D82A7A48D474 /* GravityNameValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EF55AB06A97A8CBFDC6D0B9994BB3E /* GravityNameValue.m */; };
+		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5B192F3A0DF24569EEFBEBCE004CB5 /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A0611EDFFA728E09FC7DB3ECD05280F /* Pods-GravityClientLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40211723C2061C1DCDCC870F2EB58878 /* Pods-GravityClientLib_Example-dummy.m */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
-		B37F7FE9708B954669162CB9C766E12D /* GravityClientLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8E833E6EA1337A7D7F8885DDFF7589 /* GravityClientLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A84646C56508AE90F414ACC8F1391E56 /* GravityItemRecommendation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4E70E058EB5799571BFF45DF37D821 /* GravityItemRecommendation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB36E16876987B466724BD245E5CDE52 /* GravityItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4785C56A830DFD6048D5D0FA5D2B1D32 /* GravityItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD6172CCA93995C6F425E401C3AA3BF8 /* GravityScenarioInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B153676B2B26B4C10E03678BEF0B4DE2 /* GravityScenarioInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF0F67EEF2202C3648F97A04F8B487DA /* GravityEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2265F4E846950FAD0F8883D53162A /* GravityEvent.m */; };
+		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA14D5C2BF16153BCD4C0B359619D5A /* QuartzCore.framework */; };
+		B6DA7E6754ABAE4681B848DB877E4402 /* GravityClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C86F5D1C8029831A3DFE7BC687AB3544 /* GravityClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5E62D69F3F9FB78B3EADCF9DABECC98 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF1898694F2E89CFBD5DD7CB6615B7E /* ReplaceMe.m */; };
+		C380C2DA409934CE80F997E82B9CB6CA /* GravityRecommendationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA2B10603732B82F0069861CD086093 /* GravityRecommendationContext.m */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D5552F80772024CAAB7BF4A137475D81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		DC5A399BEDAFB9E05BC8F7A3B6D72EA6 /* GravityEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B3CD52512EEEB07EF6447E5E476B4534 /* GravityEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECC8B37B532C30E7716B5152BDC265BA /* GravityRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E70BDD62C68F4EFAE77D6CFE353A4785 /* GravityRequest.m */; };
+		F587E28E46BE176A699A45EC08586798 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1196CF9690DFCE18A719F09586039404 /* CoreLocation.framework */; };
+		F8666606082788CFD900CD0A50A32CEA /* GravityUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FFC71EBF99AD185BB452435E4C0AED /* GravityUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9524D824DAEDB7771C168C654280123 /* Pods-GravityClientLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A17D2EC9E25AB81F2CE05B2378C2AAC /* Pods-GravityClientLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB834B832F0FFCA2A497D2A99B92A99B /* GravityScenarioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D5538D88F5AC86543484887D94E5E1A4 /* GravityScenarioInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +64,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0B679F2786677D3A7327CE8AE0DF27F8;
+			remoteGlobalIDString = 1243BE602C09E7B18DD55FBCA71F5817;
 			remoteInfo = GravityClientLib;
 		};
 		7E5C83EAAA963698B5510D2121E52FB7 /* PBXContainerItemProxy */ = {
@@ -59,61 +78,79 @@
 
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		07FFC71EBF99AD185BB452435E4C0AED /* GravityUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GravityUser.h; sourceTree = "<group>"; };
 		08249C5DD37A68B56F25573AC177F10C /* Pods-GravityClientLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GravityClientLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		1196CF9690DFCE18A719F09586039404 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		11FDC7B5B30B4474BFC909B27383534D /* GravityClientLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GravityClientLib-dummy.m"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		14AF401A59E9DEDD2A9787466B15BB85 /* GravityNameValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GravityNameValue.h; sourceTree = "<group>"; };
+		19EF55AB06A97A8CBFDC6D0B9994BB3E /* GravityNameValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GravityNameValue.m; sourceTree = "<group>"; };
+		1A4E70E058EB5799571BFF45DF37D821 /* GravityItemRecommendation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GravityItemRecommendation.h; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		2F700C6CB457E46C2BEB9C4E6BC0B625 /* Pods-GravityClientLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GravityClientLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2FA8B8DA7C0A4DA40A755775307ECF78 /* Pods-GravityClientLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GravityClientLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		366FE395B4B717D2A29F0A5CDE9D08A1 /* Pods-GravityClientLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GravityClientLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		40211723C2061C1DCDCC870F2EB58878 /* Pods-GravityClientLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GravityClientLib_Example-dummy.m"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		4785C56A830DFD6048D5D0FA5D2B1D32 /* GravityItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GravityItem.h; sourceTree = "<group>"; };
+		47E2265F4E846950FAD0F8883D53162A /* GravityEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GravityEvent.m; sourceTree = "<group>"; };
 		4EE4C47C5EA7F5722F4B84A40A5F6F14 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		521596F8B9EB10E0F9D1F9784646B9B1 /* GravityItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GravityItem.m; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		56651A8E436A4448744E5D5881FFE2AB /* Pods-GravityClientLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GravityClientLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57BF16841096A5EF8C41E624A450F47B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		58CBEF1E4B530CE0815A9F73DFE5D724 /* GravityClientLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GravityClientLib.xcconfig; sourceTree = "<group>"; };
 		5A17D2EC9E25AB81F2CE05B2378C2AAC /* Pods-GravityClientLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GravityClientLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		77B56850DF0EA21CDC5618E76EACFCA9 /* GravityRecommendationContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GravityRecommendationContext.h; sourceTree = "<group>"; };
 		79AAB7F416126B9942BA0762208746BB /* Pods-GravityClientLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GravityClientLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		7E5B192F3A0DF24569EEFBEBCE004CB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		803B511DF98B2EBE6EF50AEC56490127 /* GravityItemRecommendation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GravityItemRecommendation.m; sourceTree = "<group>"; };
 		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8B2ECED9DC870AB82378634C3B45E1D1 /* Pods-GravityClientLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GravityClientLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		91F40326DF4363D7437A826A982CB102 /* GravityClientLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GravityClientLib.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98CF87E0D287E842A9DA459114589FAB /* Pods-GravityClientLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GravityClientLib_Example.modulemap"; sourceTree = "<group>"; };
+		9EA14D5C2BF16153BCD4C0B359619D5A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		9FC0BFBB6CF005E71E7CB43A08B191DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A03B041314910C9D2D0450DA50A63F23 /* Pods_GravityClientLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GravityClientLib_Tests.framework; path = "Pods-GravityClientLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C88A9E4A84C511810BD7D7BCCA8263 /* Pods-GravityClientLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GravityClientLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A5B162C3FC7D4F61AE97A463236CA860 /* Pods-GravityClientLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GravityClientLib_Tests.modulemap"; sourceTree = "<group>"; };
 		A5EF6531CD5C60A616BB5DCE18D051C0 /* Pods-GravityClientLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GravityClientLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A789AB7139F11860FB813569608E0BAC /* GravityUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GravityUser.m; sourceTree = "<group>"; };
 		B14425B65F58B4C51CC0B4CC1FDA90E3 /* GravityClientLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GravityClientLib.framework; path = GravityClientLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B153676B2B26B4C10E03678BEF0B4DE2 /* GravityScenarioInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GravityScenarioInfo.h; sourceTree = "<group>"; };
 		B166163860B48A4889664E1EC42AFD47 /* GravityClientLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GravityClientLib-prefix.pch"; sourceTree = "<group>"; };
+		B3CD52512EEEB07EF6447E5E476B4534 /* GravityEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GravityEvent.h; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		BAAB9339A9218EE91C327B77AF33F130 /* Pods-GravityClientLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GravityClientLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC004034BE5936650A29190C544DC3B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BD8E833E6EA1337A7D7F8885DDFF7589 /* GravityClientLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GravityClientLib-umbrella.h"; sourceTree = "<group>"; };
 		BF8D19988FBB10152AEF4B293CE8BD33 /* Pods-GravityClientLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GravityClientLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C86F5D1C8029831A3DFE7BC687AB3544 /* GravityClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GravityClient.h; sourceTree = "<group>"; };
 		C877331433A65F6575D6EA0B6E8719BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		CCF1898694F2E89CFBD5DD7CB6615B7E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		CEA2B10603732B82F0069861CD086093 /* GravityRecommendationContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GravityRecommendationContext.m; sourceTree = "<group>"; };
 		D52EC2747880A4C492AF6B15AB5706D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5538D88F5AC86543484887D94E5E1A4 /* GravityScenarioInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GravityScenarioInfo.m; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		DDAA159FF20CFFA27735019FF1A4F7B6 /* GravityRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GravityRequest.h; sourceTree = "<group>"; };
 		DEF1AB98FB6AE56687879326FC4FD8EF /* Pods-GravityClientLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GravityClientLib_Example-resources.sh"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		E70BDD62C68F4EFAE77D6CFE353A4785 /* GravityRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GravityRequest.m; sourceTree = "<group>"; };
 		E7E20025B519B1ED0841055788AA8622 /* Pods-GravityClientLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GravityClientLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EC1576A470D59DE4778144826072C6E8 /* Pods-GravityClientLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GravityClientLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F02724E80CEB48150349E814EB8D5A1F /* GravityClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GravityClient.m; sourceTree = "<group>"; };
 		F19A68BA7745E7498259F14D5C2FA8B9 /* Pods_GravityClientLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GravityClientLib_Example.framework; path = "Pods-GravityClientLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -145,11 +182,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAFC1EE09EBD762BD387B7FE3574EB01 /* Frameworks */ = {
+		79946E654C0A5436B3A71BA9C69D1B81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5552F80772024CAAB7BF4A137475D81 /* Foundation.framework in Frameworks */,
+				F587E28E46BE176A699A45EC08586798 /* CoreLocation.framework in Frameworks */,
+				7E2E30E5567C6CF3E4DC3371DD762530 /* Foundation.framework in Frameworks */,
+				862D6CF3352C09846A04558B6DC939C7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,14 +204,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8D22B0D091B0427E43C82354D9CA8E06 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +216,26 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		19435095C75AC11895EF995DB9BC0817 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1196CF9690DFCE18A719F09586039404 /* CoreLocation.framework */,
+				7E5B192F3A0DF24569EEFBEBCE004CB5 /* Foundation.framework */,
+				9EA14D5C2BF16153BCD4C0B359619D5A /* QuartzCore.framework */,
+				BC004034BE5936650A29190C544DC3B5 /* UIKit.framework */,
+				57BF16841096A5EF8C41E624A450F47B /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19435095C75AC11895EF995DB9BC0817 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
@@ -227,27 +278,42 @@
 			path = "Target Support Files/Pods-GravityClientLib_Example";
 			sourceTree = "<group>";
 		};
+		7B9428DB295C4DB65226962919C6492A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C86F5D1C8029831A3DFE7BC687AB3544 /* GravityClient.h */,
+				F02724E80CEB48150349E814EB8D5A1F /* GravityClient.m */,
+				B3CD52512EEEB07EF6447E5E476B4534 /* GravityEvent.h */,
+				47E2265F4E846950FAD0F8883D53162A /* GravityEvent.m */,
+				4785C56A830DFD6048D5D0FA5D2B1D32 /* GravityItem.h */,
+				521596F8B9EB10E0F9D1F9784646B9B1 /* GravityItem.m */,
+				1A4E70E058EB5799571BFF45DF37D821 /* GravityItemRecommendation.h */,
+				803B511DF98B2EBE6EF50AEC56490127 /* GravityItemRecommendation.m */,
+				14AF401A59E9DEDD2A9787466B15BB85 /* GravityNameValue.h */,
+				19EF55AB06A97A8CBFDC6D0B9994BB3E /* GravityNameValue.m */,
+				77B56850DF0EA21CDC5618E76EACFCA9 /* GravityRecommendationContext.h */,
+				CEA2B10603732B82F0069861CD086093 /* GravityRecommendationContext.m */,
+				DDAA159FF20CFFA27735019FF1A4F7B6 /* GravityRequest.h */,
+				E70BDD62C68F4EFAE77D6CFE353A4785 /* GravityRequest.m */,
+				B153676B2B26B4C10E03678BEF0B4DE2 /* GravityScenarioInfo.h */,
+				D5538D88F5AC86543484887D94E5E1A4 /* GravityScenarioInfo.m */,
+				07FFC71EBF99AD185BB452435E4C0AED /* GravityUser.h */,
+				A789AB7139F11860FB813569608E0BAC /* GravityUser.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				C6C1D0DCE330AF630D4BE07EC219E6B6 /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
 				51721733F5A39AB4E873A5D2D53AD22C /* Products */,
 				05EEA20A5BE2E1E7047B4B10E2106CD8 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8D22B0D091B0427E43C82354D9CA8E06 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */,
-				A27810809BAD71E4022600B21251449F /* QuartzCore.framework */,
-				AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */,
-				3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
@@ -256,15 +322,6 @@
 				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		9B252F8528BB3FE50FEF69EAE59F712E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CCF1898694F2E89CFBD5DD7CB6615B7E /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		C4FA94E688B5150357EE69385B849CFD /* Pods-GravityClientLib_Tests */ = {
@@ -296,11 +353,20 @@
 		D2BE954295D9AA891F0849608F682044 /* GravityClientLib */ = {
 			isa = PBXGroup;
 			children = (
-				F74B300265549B31D37A06EF93A4BF7E /* GravityClientLib */,
+				D6B5DD11746476D610CB553C2A7E1A62 /* GravityClientLib */,
 				EB1605EE26CDF2846DB066EB61875725 /* Support Files */,
 			);
 			name = GravityClientLib;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		D6B5DD11746476D610CB553C2A7E1A62 /* GravityClientLib */ = {
+			isa = PBXGroup;
+			children = (
+				7B9428DB295C4DB65226962919C6492A /* Classes */,
+			);
+			name = GravityClientLib;
+			path = GravityClientLib;
 			sourceTree = "<group>";
 		};
 		EB1605EE26CDF2846DB066EB61875725 /* Support Files */ = {
@@ -338,15 +404,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		F74B300265549B31D37A06EF93A4BF7E /* GravityClientLib */ = {
-			isa = PBXGroup;
-			children = (
-				9B252F8528BB3FE50FEF69EAE59F712E /* Classes */,
-			);
-			name = GravityClientLib;
-			path = GravityClientLib;
-			sourceTree = "<group>";
-		};
 		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -363,6 +420,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9524D824DAEDB7771C168C654280123 /* Pods-GravityClientLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919BCC4A5CB54C1A8C66D09D4BABE930 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DA7E6754ABAE4681B848DB877E4402 /* GravityClient.h in Headers */,
+				2B26A8EFD4CC911F3A2341C37E12C53F /* GravityClientLib-umbrella.h in Headers */,
+				DC5A399BEDAFB9E05BC8F7A3B6D72EA6 /* GravityEvent.h in Headers */,
+				AB36E16876987B466724BD245E5CDE52 /* GravityItem.h in Headers */,
+				A84646C56508AE90F414ACC8F1391E56 /* GravityItemRecommendation.h in Headers */,
+				1DBB4581E6617702CA16D46F3EF79C3D /* GravityNameValue.h in Headers */,
+				27E38C3ACE6EE90F947672681BE813B7 /* GravityRecommendationContext.h in Headers */,
+				18962FDE595901C240FA16E7FCE973D4 /* GravityRequest.h in Headers */,
+				AD6172CCA93995C6F425E401C3AA3BF8 /* GravityScenarioInfo.h in Headers */,
+				F8666606082788CFD900CD0A50A32CEA /* GravityUser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,24 +463,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE24D1319A3C9EAF9FE18922A3FA2C28 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B37F7FE9708B954669162CB9C766E12D /* GravityClientLib-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0B679F2786677D3A7327CE8AE0DF27F8 /* GravityClientLib */ = {
+		1243BE602C09E7B18DD55FBCA71F5817 /* GravityClientLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18674320D699763CF109C6F039738352 /* Build configuration list for PBXNativeTarget "GravityClientLib" */;
+			buildConfigurationList = BD8C8D2F6EAF0DD3316F6CFE33627481 /* Build configuration list for PBXNativeTarget "GravityClientLib" */;
 			buildPhases = (
-				B58794D2B4E28DC6AB79F5642B5DEF47 /* Sources */,
-				CAFC1EE09EBD762BD387B7FE3574EB01 /* Frameworks */,
-				FE24D1319A3C9EAF9FE18922A3FA2C28 /* Headers */,
+				B96A0B570E7524F87E87C75A154A566E /* Sources */,
+				79946E654C0A5436B3A71BA9C69D1B81 /* Frameworks */,
+				919BCC4A5CB54C1A8C66D09D4BABE930 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -492,7 +558,7 @@
 			projectRoot = "";
 			targets = (
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				0B679F2786677D3A7327CE8AE0DF27F8 /* GravityClientLib */,
+				1243BE602C09E7B18DD55FBCA71F5817 /* GravityClientLib */,
 				50DE3647AEE6FAAD077945E0E424A92C /* Pods-GravityClientLib_Example */,
 				6F1BD974022E7EBE30B63C56FCB31698 /* Pods-GravityClientLib_Tests */,
 			);
@@ -516,12 +582,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B58794D2B4E28DC6AB79F5642B5DEF47 /* Sources */ = {
+		B96A0B570E7524F87E87C75A154A566E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A307BCD1E37801AAD1D16DE3C8B0A92 /* GravityClientLib-dummy.m in Sources */,
-				C5E62D69F3F9FB78B3EADCF9DABECC98 /* ReplaceMe.m in Sources */,
+				76C84E1021A4D3554871FABF01D56BE4 /* GravityClient.m in Sources */,
+				775F1ECFD8C523C71D2A1384FB1EF33B /* GravityClientLib-dummy.m in Sources */,
+				AF0F67EEF2202C3648F97A04F8B487DA /* GravityEvent.m in Sources */,
+				7C81375CC6417B93D1AC2BE201676019 /* GravityItem.m in Sources */,
+				31BF55D995BAFFAE144B1028DBBDE5BC /* GravityItemRecommendation.m in Sources */,
+				8F592E619D036B060780D82A7A48D474 /* GravityNameValue.m in Sources */,
+				C380C2DA409934CE80F997E82B9CB6CA /* GravityRecommendationContext.m in Sources */,
+				ECC8B37B532C30E7716B5152BDC265BA /* GravityRequest.m in Sources */,
+				FB834B832F0FFCA2A497D2A99B92A99B /* GravityScenarioInfo.m in Sources */,
+				07A414EF6F9DF66B778EF352205BF341 /* GravityUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,7 +621,7 @@
 		2FCF539394F840179BBFF10359F8A6E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GravityClientLib;
-			target = 0B679F2786677D3A7327CE8AE0DF27F8 /* GravityClientLib */;
+			target = 1243BE602C09E7B18DD55FBCA71F5817 /* GravityClientLib */;
 			targetProxy = 2A02EA90251CED6F50EA0824D9924EB9 /* PBXContainerItemProxy */;
 		};
 		9C8BC4E39581E8972D10D82F586F7810 /* PBXTargetDependency */ = {
@@ -559,6 +633,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		311AD8D4B5CE43529968AA368CF8FE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CBEF1E4B530CE0815A9F73DFE5D724 /* GravityClientLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GravityClientLib/GravityClientLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GravityClientLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GravityClientLib/GravityClientLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GravityClientLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -764,7 +870,7 @@
 			};
 			name = Debug;
 		};
-		9FA041BCB8EB95B102BCF023395457CE /* Debug */ = {
+		98216BBD13D37072986F822B9C942ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58CBEF1E4B530CE0815A9F73DFE5D724 /* GravityClientLib.xcconfig */;
 			buildSettings = {
@@ -795,38 +901,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		A630AEDBE28936D26709F4DC8C09A714 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58CBEF1E4B530CE0815A9F73DFE5D724 /* GravityClientLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GravityClientLib/GravityClientLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GravityClientLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GravityClientLib/GravityClientLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GravityClientLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		AF81D01FA04848069AE65F0B69A6794F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -936,15 +1010,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18674320D699763CF109C6F039738352 /* Build configuration list for PBXNativeTarget "GravityClientLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FA041BCB8EB95B102BCF023395457CE /* Debug */,
-				A630AEDBE28936D26709F4DC8C09A714 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -959,6 +1024,15 @@
 			buildConfigurations = (
 				AF81D01FA04848069AE65F0B69A6794F /* Debug */,
 				80912593E537BB05B75674C956E058BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8C8D2F6EAF0DD3316F6CFE33627481 /* Build configuration list for PBXNativeTarget "GravityClientLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98216BBD13D37072986F822B9C942ED5 /* Debug */,
+				311AD8D4B5CE43529968AA368CF8FE38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

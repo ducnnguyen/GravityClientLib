@@ -15,7 +15,7 @@
 @property (nonatomic,strong) NSArray *nameValues;
 @property (nonatomic,strong) NSArray *resultNameValues;
 
-/**
+/*
  Converts a GravityRecommendationContext array to JSON
  */
 + (NSData *)contextsToJSON:(NSArray *) contexts;

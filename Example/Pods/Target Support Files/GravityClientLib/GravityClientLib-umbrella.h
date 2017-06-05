@@ -10,6 +10,15 @@
 #endif
 #endif
 
+#import "GravityClient.h"
+#import "GravityEvent.h"
+#import "GravityItem.h"
+#import "GravityItemRecommendation.h"
+#import "GravityNameValue.h"
+#import "GravityRecommendationContext.h"
+#import "GravityRequest.h"
+#import "GravityScenarioInfo.h"
+#import "GravityUser.h"
 
 FOUNDATION_EXPORT double GravityClientLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char GravityClientLibVersionString[];

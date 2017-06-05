@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GravityClientLib/Classes/**/*'
+  s.source_files = 'GravityClientLib/Classes/*/*'
   
   # s.resource_bundles = {
   #   'GravityClientLib' => ['GravityClientLib/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/*/*.h'
   s.frameworks = 'UIKit', 'CoreLocation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
