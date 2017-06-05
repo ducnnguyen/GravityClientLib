@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GravityClientLib_Example' do
+  pod 'GravityClientLib', :path => '../'
+
+  target 'GravityClientLib_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
