@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GravityClientLib'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Make Cocoapods for GravityClient'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Fetch from https://github.com/gravityrd/ios-library
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Pod/Classes/*/*'
+  s.source_files = 'Pod/Classes/**/*'
   
   # s.resource_bundles = {
   #   'GravityClientLib' => ['GravityClientLib/Assets/*.png']
